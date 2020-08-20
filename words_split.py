@@ -1,4 +1,7 @@
-for i in range(1,6):
-    for j in range(i):
-        print("*",end=" ")
-    print("\n")
+a ='nikhil'
+# a = a.replace('i','z')
+for i in a:
+    if(i=='i'):
+        a = a.replace(i,'z',1)
+        break
+print(a)
