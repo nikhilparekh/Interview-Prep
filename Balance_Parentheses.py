@@ -28,4 +28,4 @@ def Check_Balance_Parentheses(s):
             
 
 
-print(Check_Balance_Parentheses('[][]{}'))
+print(Check_Balance_Parentheses('))'))

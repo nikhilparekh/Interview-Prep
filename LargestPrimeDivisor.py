@@ -1,14 +1,7 @@
-n = 600851475143
-res = []
-if(n%2==0):
-    res.append(2)
-while n%2==0:
-    maxPrime =2
-    n/=2
+#find the smallest number that is divisible by all numbers between 1 to 10
+x = [i*7 for i in range(1,1000000)]
 
-for i in range(3,int(n**(1/2)),2):
-    if(n%i==0):
-        res.append(i)
-        n/=i
-print(res)
-
+for i in x:
+    if i%2==0 and i%3==0 and i%4==0 and i%5==0 and i%6==0 and i%7==0 and i%8==0 and i%9==0 and i%10==0:
+        print(i)
+        break
